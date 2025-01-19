@@ -1,0 +1,11 @@
+@use 'variables' as a;
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+body {
+    line-height: 1;
+    font-family: a.$font;
+    color: a.$text-color;
+}

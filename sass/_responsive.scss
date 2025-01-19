@@ -1,0 +1,25 @@
+/* Tablet: 3 cột */
+@media (max-width: 1024px) {
+    .partner-logo {
+        grid-template-columns: repeat(4, 1fr); /* 4 cột */
+        align-items: center;
+        justify-items: center;
+        & img {
+            width: 200px;
+            height: auto;
+        }
+    }
+}
+
+/* Điện thoại: 2 cột */
+@media (max-width: 768px) {
+    .partner-logo {
+        grid-template-columns: repeat(3, 1fr); /* 3 cột */
+        align-items: center;
+        justify-items: center;
+        & img {
+            width: 300px;
+            height: auto;
+        }
+    }
+}

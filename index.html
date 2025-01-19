@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<!-- sass ./sass/app.scss ./css/app.css --watch -->
+
+<body>
+    <div class="wrapper">
+        <!-- Introduction -->
+        <header class="header">
+            <div class="header-image">
+                <img src="./image/banner1.png" alt="">
+            </div>
+            <div class="header-container">
+                <div class="header-content">
+                    <div>
+                        <img src="./image/logo.png" alt="">
+                    </div>
+                    <div class="header-content-text">
+                        <h1>
+                            Finding the perfect car insurance can feel like a never-ending road trip.
+                        </h1>
+                        <p>Compare home and auto rates from top insurance companies.</p>
+                        <div class="zip-box">
+                            <input type="text" placeholder="Enter Zipcode">
+                            <button class="zipcode-button">ENTER ZIPCODE</button>
+                        </div>
+                    </div>
+                    <div class="header-content-overview">
+                        <div class="header-content-overview-ct" style="padding-right: 25px;">
+                            <h1>250+</h1>
+                            <p>Expert ready to help</p>
+                        </div>
+                        <div class="header-content-overview-ct" style="padding: 0 52px;">
+                            <div>
+                                <img src="./image/Daco_1534091_1.png" alt="">
+                                <img src="./image/star1.png" alt="">
+                            </div>
+                            <p style="text-decoration: underline;">4.8 out of 5 Excellent rating</p>
+                        </div>
+                        <div class="header-content-overview-ct" style="padding-left: 25px;">
+                            <h1>2500+</h1>
+                            <p>Peer-reviewed articles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- feature logo-slide -->
+
+        <section class="logo-slider">
+            <p>As featured in</p>
+            <div class="logo-carousel">
+                <div class="logo-slider-icon">
+                    <img src="/image/image-1.png" alt="">
+                    <img src="/image/image-2.png" alt="">
+                    <img src="/image/image-3.png" alt="">
+                    <img src="/image/image-4.png" alt="">
+                    <img src="/image/image-5.png" alt="">
+                    <img src="/image/image-6.png" alt="">
+                    <img src="/image/image-7.png" alt="">
+                    <img src="/image/image-8.png" alt="">
+                    <img src="/image/image-9.png" alt="">
+                    <img src="/image/image-10.png" alt="">
+                    <img src="/image/image-11.png" alt="">
+                    <img src="/image/image-12.png" alt="">
+                    <img src="/image/image-13.png" alt="">
+                    <img src="/image/image-14.png" alt="">
+                    <img src="/image/image-15.png" alt="">
+                    <img src="/image/image-16.png" alt="">
+                    <img src="/image/image-17.png" alt="">
+
+                    <img src="/image/image-1.png" alt="">
+                    <img src="/image/image-2.png" alt="">
+                    <img src="/image/image-3.png" alt="">
+                    <img src="/image/image-4.png" alt="">
+                    <img src="/image/image-5.png" alt="">
+                    <img src="/image/image-6.png" alt="">
+                    <img src="/image/image-7.png" alt="">
+                    <img src="/image/image-8.png" alt="">
+                    <img src="/image/image-9.png" alt="">
+                    <img src="/image/image-10.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- personal quotes -->
+
+        <section class="quotes-container">
+            <div class="quotes-content">
+                <div>
+                    <h1 style="font-size: 40px; font-weight: 700; text-align: center; padding-bottom: 26px;">Get
+                        personalized quotes in 5 minutes or less</h1>
+                </div>
+                <div class="quotes-content-card">
+                    <div class="quotes-content-card-content">
+                        <img src="./image/quotes_1.png" alt="">
+                        <div>
+                            <div>
+                                <h2>
+                                    Compare personalized quotes
+                                </h2>
+                                <p>Answer a couple of questions, we'll provide accurate real-time quotes.</p>
+                            </div>
+                            <a href="#" class="quotes-button">GET MY QUOTES</a>
+                        </div>
+                    </div>
+                    <div class="quotes-content-card-content">
+                        <img src="./image/quotes_2.png" alt="">
+                        <div>
+                            <div>
+                                <h2>
+                                    Get all discounts in one place
+                                </h2>
+                                <p>Get all the discounts you qualify for in one place. Find out which insurer will
+                                    provide you with the most.</p>
+                            </div>
+                            <a href="#" class="quotes-button">GET MY QUOTES</a>
+                        </div>
+                    </div>
+                    <div class="quotes-content-card-content">
+                        <img src="./image/quotes_3.png" alt="">
+                        <div>
+                            <div>
+                                <h2>
+                                    Buy online or on the phone
+                                </h2>
+                                <p>Get the policy you want the way you want it, buy online or schedule a call with an
+                                    agent.
+                                </p>
+                            </div>
+                            <a href="#" class="quotes-button">GET MY QUOTES</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       
+        <!-- 4. Insurify Work Section -->
+        <section class="insurify__session">
+            <div class="container text-center py-5">
+                <div class="hero-text">
+                    <h1>
+                        How Does Insurify Work to Save You Money?
+                    </h1>
+                </div>
+                <div class="row  wp-feature-box-1">
+                    <!-- Feature 1 -->
+                    <div class="col-md-4 boxI">
+                        <div class="feature-box mb-4">
+                            <img src="./image/insurify_work_1.png" alt="" class="feature-icon">
+                            <div class="insurify-title">Save on Average $800 per year</div>
+                            <div class="mt-3 button-down">
+                                <i class="bi bi-chevron-down toggle-indicator" style="color: #FF3E00;"></i>
+                            </div>
+                            <p class="insurify-description" id="feature-1">
+                                Drivers who switch with Insurify save an average of $800 per year. Ready to join them?
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="col-md-4 boxI">
+                        <div class="feature-box mb-4">
+                            <img src="./image/insurify_work_2.png" alt="Icon 2" class="feature-icon">
+                            <div class="insurify-title">200+ Insurers. One Powerful Search</div>
+                            <div class="mt-3 button-down">
+                                <i class="bi bi-chevron-down toggle-indicator" style="color: #FF3E00;"></i>
+                            </div>
+                            <p class="insurify-description" id="feature-2">
+                                Find the best insurers in one place with a simple search tailored to your needs.
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="col-md-4 boxI">
+                        <div class="feature-box mb-4">
+                            <img src="./image/insurify_work_3.png" alt="Icon 3" class="feature-icon">
+                            <div class="insurify-title">Quotes in Minutes. Savings in Sight</div>
+                            <div class="mt-3  button-down">
+                                <i class="bi bi-chevron-down toggle-indicator" style="color: #FF3E00;"></i>
+                            </div>
+                            <p class="insurify-description" id="feature-3">
+                                Get accurate quotes in just minutes and see your savings instantly.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row wp-feature-box-2">
+                    <!-- Feature 4 -->
+                    <div class="col-md-4 boxI">
+                        <div class="feature-box mb-4">
+                            <img src="./image/insurify_work_4.png" alt="Icon 4" class="feature-icon">
+                            <div class="insurify-title">Always Free. Always Transparent</div>
+
+                            <div class="mt-3  button-down">
+                                <i class="bi bi-chevron-down toggle-indicator" style="color: #FF3E00;"></i>
+                            </div>
+
+                            <p class="insurify-description" id="feature-4">
+                                Our services are always free and fully transparent to help you make informed decisions.
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- Feature 5 -->
+                    <div class="col-md-4 boxI">
+                        <div class="feature-box mb-4">
+                            <img src="./image/insurify_work_5.png" alt="Icon 5" class="feature-icon">
+                            <div class="insurify-title">Your Privacy is Our Priority</div>
+                            <div class="mt-3  button-down">
+                                <i class="bi bi-chevron-down toggle-indicator" style="color: #FF3E00;"></i>
+                            </div>
+                            <p class="insurify-description" id="feature-5">
+                                We take privacy seriously and ensure your data is protected at all times.
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- Feature 6 -->
+                    <div class="col-md-4 boxI">
+                        <div class="feature-box mb-4">
+                            <img src="./image/insurify_work_6.png" alt="Icon 6" class="feature-icon">
+                            <div class="insurify-title">Your Way. Online or With an Agent</div>
+                            <div class="mt-3  button-down">
+                                <i class="bi bi-chevron-down toggle-indicator" style="color: #FF3E00;"></i>
+                            </div>
+                            <p class="insurify-description" id="feature-6">
+                                Choose the way you want to interact, either online or with a licensed agent.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="insurify-button">
+                    <a href="#">
+                        FIND SAVINGS NOWS
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Ours Partner -->
+
+        <section class="partner">
+            <div class="partner-container">
+                <div class="partner-title">
+                    <h1>
+                        Our partners
+                    </h1>
+                    <p>
+                        We work with 200+ top insurance companies to find the best the match for you
+                    </p>
+                </div>
+                <div class="partner-logo">
+                    <img src="./image/parter_1.png" alt="">
+                    <img src="./image/parter_2.png" alt="">
+                    <img src="./image/parter_3.png" alt="">
+                    <img src="./image/parter_4.png" alt="">
+                    <img src="./image/parter_5.png" alt="">
+                    <img src="./image/parter_6.png" alt="">
+
+                    <img src="./image/parter_7.png" alt="">
+                    <img src="./image/parter_8.png" alt="">
+                    <img src="./image/parter_9.png" alt="">
+                    <img src="./image/parter_10.png" alt="">
+                    <img src="./image/parter_11.png" alt="">
+                    <img src="./image/parter_12.png" alt="">
+
+                    <img src="./image/parter_13.png" alt="">
+                    <img src="./image/parter_14.png" alt="">
+                    <img src="./image/parter_15.png" alt="">
+                    <img src="./image/parter_16.png" alt="">
+                    <img src="./image/parter_17.png" alt="">
+                    <img src="./image/parter_18.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="review-container">
+            <div class="review-content">
+                <div class="review-title">
+                    <h1>
+                        Over 18 million quotes and counting
+                    </h1>
+                    <p>
+                        See why millions of people choose insurify.com for their insurance needs.
+                        We have outstanding reviews on Trustpilot, BBB, and Google!
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="card">
+                        <div style="padding: 24px 40px 40px 56px;">
+                            <div class="card-header">
+
+                                <img src="./image/star_review.png" alt="">
+                                <img src="/image/ans.png" alt="">
+                            </div>
+                            <div class="time">
+                                <img src="./image/mdi_tick.png" alt="">
+                                <p> Invited</p>
+                                <p>|</p>
+                                <p> 2 days ago</p>
+                            </div>
+                            <div class="card-body">
+                                <p class="quote">
+                                    All the quotes I received were reasonable and competitive!
+                                </p>
+                                <p class="description">
+                                    The site was user friendly and the process was simple! I was able to speak to an
+                                    insurance agent right away and purchased auto insurance the same day. Thank you
+                                    Insurify!
+                                </p>
+                                <p class="date">
+                                    <span style="font-weight: 700;">Date of experience</span> <span> : January 10,
+                                        2025</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="profile">
+                                <img src="./image/avatar_1.png" alt="Profile Image" />
+                                <div class="details">
+                                    <span class="name">John Smith</span>
+                                    <div class="meta">
+                                        <img src="./image/Vector.png" alt="">
+                                        <span>US | 1 review</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flag">
+                                <img src="./image/usa.png" alt="US Flag" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div style="padding: 24px 40px 40px 56px;">
+                            <div class="card-header">
+
+                                <img src="./image/star_review.png" alt="">
+                                <img src="/image/ans.png" alt="">
+                            </div>
+                            <div class="time">
+                                <img src="./image/mdi_tick.png" alt="">
+                                <p> Invited</p>
+                                <p>|</p>
+                                <p> 2 days ago</p>
+                            </div>
+                            <div class="card-body">
+                                <p class="quote">
+                                    That was easy!
+                                </p>
+                                <p class="description">
+                                    That was easy! Sometimes modern technology does make life a bit simpler. I saved
+                                    about $70/month by using insurify. The process was easy and fairly quick taking
+                                    place mostly text. The CSR who helped me...
+                                </p>
+                                <p class="date">
+                                    <span style="font-weight: 700;">Date of experience</span> <span> : January 06,
+                                        2025</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="profile">
+                                <img src="./image/avatar_2.png" alt="Profile Image" />
+                                <div class="details">
+                                    <span class="name">Francesca Ricci</span>
+                                    <div class="meta">
+                                        <img src="./image/Vector.png" alt="">
+                                        <span>US | 1 review</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flag">
+                                <img src="./image/usa.png" alt="US Flag" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-review">
+                    <div class="footer-review-content">
+                        <p>
+                            4.7 out of 5 on 5775 reviews. See all reviews at
+                        </p>
+                        <img src="./image/footer_review.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="button__review">
+                <button class="button__review-back">
+                    <img src="./image/back_button.png" alt="">
+                </button>
+                <button class="button__review-pre">
+                    <img src="./image/pre_button.png" alt="">
+                </button>
+            </div>
+        </section>
+
+        <!-- accordition part -->
+
+        <section id="FAQ">
+            <div class="container" style="padding: 64px 105px;">
+                <div class="box">
+                    <!-- <h1 class="text-center mb-3 pt-4 d-none d-md-block">FAQ</h1> -->
+                    <h1 class="text-center mb-3 pt-4" style="font-size: 40px; font-weight: 700;">Car insurance questions
+                    </h1>
+                    <div class="accordion" id="faq-accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="what-types-of-grants">
+
+                                <button class="accordion-btn" style="font-weight: 500;" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#what-types-collapse" aria-expanded="true"
+                                    aria-controls="what-types-collapse" onclick="toggleAccordionImage(this)">
+                                    <img src="/image/present_icon.png" class="accordion-icon" alt="">
+                                    <p>What should I do if I get into a car accident?</p>
+                                    <!-- <span class="toggle-icon"
+                                        style="font-size: 30px; position: absolute; right: 10px;">-</span> -->
+                                </button>
+                            </h2>
+                            <div id="what-types-collapse" class="accordion-collapse collapse show"
+                                aria-labelledby="what-types-grants">
+                                <div class="accordion-body" style="line-height: 24px; padding: 5px 24px 24px 72px;">
+                                    <pre>
+There are important steps you need to take if you ever find yourself in a car accident:
+
+- Always remember to check you and your passengers for injuries first, then call 911.
+- Exchange info with the other driver and take photos. Try to avoid discussions about who’s at fault.
+- Report the accident to your insurance company by filing a claim.
+                                   </pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="accor2">
+
+                                <button class="accordion-btn" style="font-weight: 500;" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#how-much-collapse" aria-expanded="false"
+                                    aria-controls="how-much-collapse" onclick="toggleAccordionImage(this)">
+                                    <img src="/image/down_icon.png" class="accordion-icon" alt="">
+                                    <p>How much is car insurance per month?</p>
+                                    <!-- <span class="toggle-icon"
+                                        style="font-size: 30px; position: absolute; right: 10px;">-</span> -->
+                                </button>
+                            </h2>
+                            <div id="how-much-collapse" class="accordion-collapse collapse" aria-labelledby="accor2">
+                                <div class="accordion-body" style="line-height: 24px; padding: 5px 24px 24px 72px;">
+                                    <p>
+                                        What should I do if I get into a car accident?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="accor3">
+
+                                <button class="accordion-btn" style="font-weight: 500;" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#acc3" aria-expanded="false"
+                                    aria-controls="acc3" onclick="toggleAccordionImage(this)">
+                                    <img src="/image/down_icon.png" class="accordion-icon" alt="">
+                                    <p>What is a deductible in car insurance?</p>
+                                    <!-- <span class="toggle-icon"
+                                        style="font-size: 30px; position: absolute; right: 10px;">-</span> -->
+                                </button>
+                            </h2>
+                            <div id="acc3" class="accordion-collapse collapse" aria-labelledby="accor3">
+                                <div class="accordion-body" style="line-height: 24px; padding: 5px 24px 24px 72px;">
+                                    <p>
+                                        What should I do if I get into a car accident?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="accor4">
+
+                                <button class="accordion-btn" style="font-weight: 500;" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#acc4" aria-expanded="true"
+                                    aria-controls="acc4" onclick="toggleAccordionImage(this)">
+                                    <img src="/image/down_icon.png" class="accordion-icon" alt="">
+                                    <p>Does my auto insurance cover rental cars?</p>
+                                    <!-- <span class="toggle-icon"
+                                        style="font-size: 30px; position: absolute; right: 10px;">-</span> -->
+                                </button>
+                            </h2>
+                            <div id="acc4" class="accordion-collapse collapse" aria-labelledby="accor4">
+                                <div class="accordion-body" style="line-height: 24px; padding: 5px 24px 24px 72px;">
+                                    <p>
+                                        What should I do if I get into a car accident?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="accor5">
+
+                                <button class="accordion-btn" style="font-weight: 500;" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#acc5" aria-expanded="true"
+                                    aria-controls="acc5" onclick="toggleAccordionImage(this)">
+                                    <img src="/image/down_icon.png" class="accordion-icon" alt="">
+                                    <p>What is gap insurance for cars?</p>
+                                    <!-- <span class="toggle-icon"
+                                        style="font-size: 30px; position: absolute; right: 10px;">-</span> -->
+                                </button>
+                            </h2>
+                            <div id="acc5" class="accordion-collapse collapse" aria-labelledby="accor5">
+                                <div class="accordion-body" style="line-height: 24px; padding: 5px 24px 24px 72px;">
+                                    <p>
+                                        What should I do if I get into a car accident?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer>
+
+
+            <div class="footer__top">
+                <h1>Ready to Save?</h1>
+                <div class="zip-box">
+                    <input type="text" placeholder="Enter Zipcode">
+                    <button class="zipcode-button">ENTER ZIPCODE</button>
+                </div>
+            </div>
+
+            <div class="footer-container">
+                <!-- Logo and Description -->
+                <div class="footer-column wide" style="max-width: 255px;">
+                    <!-- <h2 class="footer-logo">INSURIFY</h2> -->
+                    <img src="./image/logo.png" width="153" alt="">
+                    <p>
+                        Insurify Insurance Agency is a licensed insurance agency in 50 states and DC.
+                    </p>
+                    <p>
+                        Average potential savings based on initial quotes received by 183,234 customers
+                        seeking insurance through Insurify. Actual savings may vary depending on state of residence,
+                        individual circumstances, coverage selections, and insurance provider. Savings results are not
+                        guaranteed.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#"><img src="/image/facebook-icon.png" alt="Facebook"></a>
+                        <a href="#"><img src="/image/twitter-icon.png" alt="Twitter"></a>
+                        <a href="#"><img src="/image/instagram-icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="/image/linkendi-icon.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+
+                <!-- Company Links -->
+                <div class="footer-column small">
+                    <h3>Company</h3>
+                    <ul class="lh-40">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Editorial Team</a></li>
+                        <li><a href="#">Editorial Guidelines</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Services</a></li>
+                        <li><a href="#">Do not sell my data</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Site map</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resource Links -->
+                <div class="footer-column small">
+                    <h3>Resource</h3>
+                    <ul class="lh-40">
+                        <li><a href="#">Compare car insurance</a></li>
+                        <li><a href="#">Cheap car insurance</a></li>
+                        <li><a href="#">Best car insurance</a></li>
+                        <li><a href="#">Car insurance calculator</a></li>
+                        <li><a href="#">Blog Insights</a></li>
+                        <li><a href="#">Report</a></li>
+                    </ul>
+                </div>
+
+                <!-- Car Insurance by City -->
+                <div class="footer-column wide">
+                    <div>
+                        <h3>Car Insurance by City</h3>
+                        <!-- <p class="lh-40">
+                        Atlanta, GA Charleston, SC Charlotte, NC Chicago, IL Columbus, OH Dallas, TX Denver, CO<br>
+                        Houston, TX Jacksonville, FL Las Vegas, NV Los Angeles, CA Memphis, TN Miami, FL Orlando, FL<br>
+                        Philadelphia, PA Phoenix, AZ San Diego, CA San Antonio, TX Tampa, FL
+                    </p> -->
+                        <div class="state-list">
+                            <span>Atlanta, GA</span>
+                            <span>Charleston, SC</span>
+                            <span>Charlotte, NC</span>
+                            <span>Chicago, IL</span>
+                            <span>Columbus, OH</span>
+                            <span>Dallas, TX</span>
+                            <span>Denver, CO</span>
+                            <span>Chicago, IL</span>
+                            <span>Houston, TX</span>
+                            <span>Jacksonville, FL</span>
+                            <span>Las Vegas, NV</span>
+                            <span>Los Angeles, CA</span>
+                            <span>Memphis, TN</span>
+                            <span>Miami, FL</span>
+                            <span>Orlando, FL</span>
+                            <span>Philadelphia, PA</span>
+                            <span>Phoenix, AZ</span>
+                            <span>San Diego, CA</span>
+                            <span>San Antonio, TX</span>
+                            <span>Tampa, FL</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 style="margin-top: 40px;">Car Insurance by State</h3>
+                        <!-- <p class="lh-40">
+                        AL AK AZ AR CA CO CT DC DE FL GA HI ID IL IN IA KS KY LA ME MA MI MN MS MO MT NC ND NE NH NJ NM
+                        NV NY OH OK<br>
+                        OR PA SC SD TN TX UT VT VA WA WV WI WY
+                    </p> -->
+                        <div class="state-list">
+                            <span>AL</span>
+                            <span>AK</span>
+                            <span>AZ</span>
+                            <span>AR</span>
+                            <span>CA</span>
+                            <span>CO</span>
+                            <span>CT</span>
+                            <span>DC</span>
+                            <span>DE</span>
+                            <span>FL</span>
+                            <span>GA</span>
+                            <span>HI</span>
+                            <span>ID</span>
+                            <span>IL</span>
+                            <span>IN</span>
+                            <span>IA</span>
+                            <span>KS</span>
+                            <span>KY</span>
+                            <span>LA</span>
+                            <span>ME</span>
+                            <span>MA</span>
+                            <span>MI</span>
+                            <span>MN</span>
+                            <span>MS</span>
+                            <span>MO</span>
+                            <span>MT</span>
+                            <span>NC</span>
+                            <span>ND</span>
+                            <span>NE</span>
+                            <span>NH</span>
+                            <span>NJ</span>
+                            <span>NM</span>
+                            <span>NV</span>
+                            <span>NY</span>
+                            <span>OH</span>
+                            <span>OK</span>
+                            <span>OR</span>
+                            <span>PA</span>
+                            <span>SC</span>
+                            <span>SD</span>
+                            <span>TN</span>
+                            <span>TX</span>
+                            <span>UT</span>
+                            <span>VT</span>
+                            <span>VA</span>
+                            <span>WA</span>
+                            <span>WV</span>
+                            <span>WI</span>
+                            <span>WY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <p>© 2025 Insurify, Inc. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

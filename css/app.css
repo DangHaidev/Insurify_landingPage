@@ -1,0 +1,615 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  line-height: 1;
+  font-family: "Urbanist", serif;
+  color: #000000;
+}
+
+.header-container {
+  background-color: rgba(255, 255, 255, 0.6980392157);
+  width: 730px;
+  height: 595px;
+  position: absolute;
+  top: 83.5px;
+  left: 165px;
+}
+
+.header {
+  position: relative;
+}
+
+.header-content {
+  padding: 40px;
+}
+.header-content-text {
+  padding: 40px 0;
+}
+.header-content-text h1 {
+  color: #040018;
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 700;
+}
+.header-content-text p {
+  font-size: 18px;
+  padding: 24px 0;
+}
+.header-content-overview {
+  display: flex;
+}
+.header-content-overview-ct {
+  text-align: center;
+}
+.header-content-overview-ct h1 {
+  font-weight: 900;
+  font-size: 24px;
+  padding-bottom: 4px;
+}
+
+.zip-box {
+  display: flex;
+  height: 56px;
+}
+.zip-box input {
+  padding: 24px 16px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+.zip-box button {
+  width: 240px;
+  background-color: #FF3E00;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.zip-box button:hover {
+  background-color: rgb(255, 138, 102);
+}
+
+.logo-slider {
+  background-color: #FCF6F4;
+  height: 131px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo-slider-icon {
+  display: flex;
+  justify-content: center;
+  animation: scroll-loop 20s linear infinite; /* Áp dụng animation */
+}
+.logo-slider-icon img {
+  width: 131.75px;
+}
+.logo-slider p {
+  padding-left: 165px;
+}
+
+.logo-carousel {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+@keyframes scroll-loop {
+  0% {
+    transform: translateX(0); /* Bắt đầu từ ngoài bên phải */
+  }
+  100% {
+    transform: translateX(-100%); /* Kết thúc ở ngoài bên trái */
+  }
+}
+.quotes-content {
+  padding: 80px 163px;
+}
+.quotes-content-card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.quotes-content-card-content {
+  width: 350px;
+}
+.quotes-content-card-content a {
+  background-color: #FF3E00;
+  padding: 16px 24px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.quotes-content-card-content a:hover {
+  background-color: rgb(255, 138, 102);
+}
+.quotes-content-card-content h2 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+.quotes-content-card-content p {
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 80px 0 26px 0;
+}
+
+.insurify-button {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+.insurify-button a {
+  background-color: #FF3E00;
+  padding: 20px 34px;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.insurify-button a:hover {
+  background-color: rgb(255, 138, 102);
+}
+
+.insurify__session {
+  background-color: #FFFBF9;
+}
+
+.boxI {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ff6600;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  width: 380px;
+  box-sizing: border-box;
+}
+
+.feature-box:hover {
+  box-shadow: 0px 8px 30px rgba(255, 62, 0, 0.2);
+  border: 3px solid #ff3e00;
+  position: absolute;
+  z-index: 5;
+  margin: 0 auto;
+}
+
+.wp-feature-box-1,
+.wp-feature-box-2 {
+  margin: 0 80px;
+}
+
+.wp-feature-box-2 {
+  position: relative;
+}
+
+.feature-box:hover .wp-feature-box-2 {
+  z-index: 2;
+}
+
+.insurify-description {
+  padding: 20px 30px 20px 30px;
+  display: none;
+}
+
+.feature-box:hover .insurify-description {
+  display: block;
+}
+
+.feature-box.active {
+  border: 3px solid #ff3e00;
+  box-shadow: 0px 8px 30px 0px rgba(255, 62, 0, 0.2392156863);
+  border-radius: 8px;
+}
+
+.feature-icon {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 1rem;
+}
+
+.feature-box:hover .button-down {
+  display: none;
+}
+
+.feature-box.active .insurify-description {
+  display: block;
+  border: 3px solid #ff3e00;
+  border: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.insurify-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.partner-logo {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 24px;
+}
+.partner-logo img:hover {
+  transform: scale(1.2); /* Phóng to ảnh khi hover */
+  transition: transform 0.3s ease; /* Hiệu ứng mượt */
+}
+
+.partner-container {
+  padding: 80px 165px;
+}
+
+.partner-title {
+  max-width: 445px;
+  padding-bottom: 26px;
+}
+.partner-title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.partner-title p {
+  line-height: 24px;
+}
+
+.card {
+  width: 525px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.card-body {
+  padding: 0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.quote {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  height: 58px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 21.6px;
+  padding-top: 12px;
+  padding-bottom: 24px;
+  height: 120px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 56px;
+  background-color: #FF3E00;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.time {
+  padding-top: 5px;
+  padding-bottom: 24px;
+  display: flex;
+  gap: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 96px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.flag img {
+  width: 42px;
+  border-radius: 3px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.meta img {
+  width: 21px;
+}
+
+.review-card {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  padding-bottom: 167px;
+}
+
+.review-title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 80px 0 12px 0;
+}
+.review-title p {
+  text-align: center;
+  padding: 0 460px;
+  padding-bottom: 40px;
+}
+
+.footer-review {
+  background-color: #fff;
+  position: absolute;
+  bottom: 80px;
+  right: 165px;
+}
+.footer-review-content {
+  padding: 4px 320px;
+  display: flex;
+  align-items: center;
+}
+
+.review-content {
+  background-color: #FBF6F6;
+  position: relative;
+}
+
+.button__review button {
+  border: none;
+  background-color: #FBF6F6;
+}
+.button__review-back {
+  position: absolute;
+  top: 40%;
+  left: 52px;
+}
+.button__review-pre {
+  position: absolute;
+  top: 40%;
+  right: 52px;
+}
+
+.review-container {
+  position: relative;
+}
+
+.accordion-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: white;
+  padding: 0 24px;
+  padding-top: 16px;
+  gap: 16px;
+}
+
+.accordion-item {
+  box-shadow: 0 0 32px rgba(225, 225, 225, 0.9098039216);
+  margin: 5px 0;
+  border-radius: 12px;
+}
+.accordion-item h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.accordion-item button {
+  border-radius: 12px;
+  padding: 8px 24px !important;
+}
+
+/* General Footer Styles */
+footer {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 165px;
+  gap: 30px;
+}
+
+.footer-column.wide {
+  flex: 2;
+}
+
+.footer-column.small {
+  flex: 1;
+  max-width: 160px;
+}
+
+.footer-column h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer-column p,
+.footer-column ul {
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4d00;
+  margin-bottom: 10px;
+}
+
+.social-icons a img {
+  width: 32px;
+  height: 32px;
+  margin-right: 14px;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 64px;
+  border-top: 1px solid #ddd;
+  padding: 12px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+.lh-40 {
+  line-height: 40px !important;
+}
+
+.state-list {
+  display: flex;
+  flex-wrap: wrap; /* Chia dòng nếu cần */
+  gap: 16px; /* Khoảng cách 16px giữa các phần tử */
+  margin: 37px 0;
+}
+
+.footer__top {
+  padding: 80px 450px 64px 450px;
+}
+.footer__top h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* Tablet: 3 cột */
+@media (max-width: 1024px) {
+  .partner-logo {
+    grid-template-columns: repeat(4, 1fr); /* 4 cột */
+    align-items: center;
+    justify-items: center;
+  }
+  .partner-logo img {
+    width: 200px;
+    height: auto;
+  }
+}
+/* Điện thoại: 2 cột */
+@media (max-width: 768px) {
+  .partner-logo {
+    grid-template-columns: repeat(3, 1fr); /* 3 cột */
+    align-items: center;
+    justify-items: center;
+  }
+  .partner-logo img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
