@@ -8,6 +8,6 @@ function toggleAccordionImage(button) {
     if (isExpanded) {
         icon.src = "./image/present_icon.png"; // Thay đổi thành icon mũi tên lên
     } else {
-        icon.src = "/image/down_icon.png"; // Trở lại icon mũi tên xuống
+        icon.src = "./image/down_icon.png"; // Trở lại icon mũi tên xuống
     }
 }
